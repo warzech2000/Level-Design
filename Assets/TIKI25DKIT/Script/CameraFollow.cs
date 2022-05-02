@@ -7,8 +7,8 @@ public class CameraFollow : MonoBehaviour
     public static CameraFollow Instance;
     public float lerpSpeed = 3;
     public Vector2 offsetPlayer = new Vector2(1, 1);
-    public float limitCameraUp = 26;     //set limit position for Y axis
-    public float limitCameraBelow = -3;     //set limit position for Y axis
+    public float limitCameraUp = 5000;     //set limit position for Y axis
+    public float limitCameraBelow = -5000;     //set limit position for Y axis
 
    [ReadOnly] public  float limitUp = 0;     //set limit position for Y axis
     [ReadOnly] public float limitBelow = 0;     //set limit position for Y axis
